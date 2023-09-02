@@ -1,0 +1,61 @@
+body {
+    margin: 0 50px 0 50px;
+    display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main img{
+    width: 150px;
+}
+h1 .Focus {
+color: teal;
+}
+h1 {
+    font-size: 1.5rem;
+}
+.functional img{
+    width: 250px;
+    height: 250px;
+    display: inline;
+    float: left;
+    margin-right: 10px;
+}
+.softskill img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+}
+.functional {
+   width: 45%;
+   text-align: justify;
+   float: left;
+   margin-bottom: 0%;
+}
+.softskill {
+    width: 45%;
+    text-align: justify;
+    float: right;
+    margin-bottom: 0%;
+}
+.footer p{
+    clear: both;
+    float: right;
+    color: teal;
+    font-weight: bold;
+}
+
+@media (min-width:480px) and (max-width: 1200px) {
+    .softskill img{ 
+        float: none;
+    }
+    .softskill{
+        float: none;
+    }
+    .footer p{
+        float: none;
+        font-size: 10px;
+    }
+}
+
+
